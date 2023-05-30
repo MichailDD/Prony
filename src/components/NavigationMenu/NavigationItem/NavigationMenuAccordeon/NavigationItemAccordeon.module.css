@@ -1,0 +1,39 @@
+.accordeon{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.fake{
+    padding-bottom: 12px;
+}
+.link{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.07px;
+    color: #272557;
+    cursor: pointer;
+}
+.arrow{
+    padding-left: 78px;
+}
+.list__item{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #272557;
+    opacity: 0.5;
+    list-style: none;
+    padding-left: 40px;
+    
+}
+.list{
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+   
+}

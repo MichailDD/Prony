@@ -1,0 +1,11 @@
+.blok__menu{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fff;
+    padding-top: 24px;
+}
+.accordeon__item{
+    padding-left: 23px;padding-top: 10px;
+    padding-bottom: 7px;
+}

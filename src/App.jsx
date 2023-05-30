@@ -1,8 +1,20 @@
+import s from "./App.module.css"
+import { Route, Routes } from 'react-router-dom'
+import DashBoard from "./pages/Dashboard";
+import Test from "./pages/Test";
+import Layoute from "./components/LayoutPage/LayoutePage";
+import Boards from "./pages/Boards";
+
 const App = (props) => {
   return ( 
-    <div>
-      
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Layoute/>}>
+        <Route index path="/" element={<DashBoard/>}/>
+        <Route path="boards" element={<Boards/>}/>
+        </Route>
+      </Routes>
+    </>
    );
 }
  

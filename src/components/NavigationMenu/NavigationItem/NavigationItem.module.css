@@ -1,0 +1,36 @@
+.blok{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 260px;
+    height: 44px;
+    background-color: #fff;
+    transition: all 0.4s;
+    padding-left: 24px;
+ 
+}
+.blok:hover{
+    background-color: #F2F2F5;
+}
+.link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.07px;
+    color: #272557;
+}
+.icon{
+    display: none;
+
+}
+.icon__dis{
+    display: block;
+
+}
+.blok:hover .icon {
+    display: block;
+}
+.blok:hover .icon__dis{
+    display: none;
+}
