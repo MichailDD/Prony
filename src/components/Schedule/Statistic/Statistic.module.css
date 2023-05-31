@@ -1,0 +1,67 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blok__info{
+    display: flex;
+}
+.title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #272557;
+}
+.span{
+    font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.0595px;
+}
+.users{
+    color: #1565C0;
+}
+.posts{
+    color: #FF9800;
+}
+.voters{
+    color: #43A047;
+}
+.checked{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    gap: 48px;
+    padding-top: 5px;
+
+}
+.checked__blok{
+   align-items: center;
+   display: flex;
+   gap: 9px;
+   text-align: center;
+}
+.input{
+    width: 16px;
+    height: 16px;
+}
+.days span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.09px;
+    color: #9E9E9E;
+
+}
+.days{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    transform: rotate(-180deg);
+}
+.days{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}

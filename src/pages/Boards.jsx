@@ -1,9 +1,9 @@
+
+
 const Boards = (props) => {
-    return ( 
-        <div>
-            boards
-        </div>
-     );
+<div>
+    <h1>ffffffffffffffffffffff</h1>
+</div>
 }
  
 export default Boards;
