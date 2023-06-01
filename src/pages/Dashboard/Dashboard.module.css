@@ -6,6 +6,9 @@
 .left{
     max-width: 1010px;
 }
+.right{
+    padding-top: 16px;
+}
 .top{
     padding-top: 16px;
 }
@@ -19,4 +22,8 @@
     padding-left: 36px;
     padding-right: 25px;
     padding-bottom: 30px;
+}
+.main__blok{
+    display: flex;
+    gap: 20px;
 }

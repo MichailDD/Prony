@@ -4,6 +4,7 @@ import s from "./Dashboard.module.css"
 import DashBoardCards from "../../components/DashBoardCards/DashBoardCards";
 import Statistic from "../../components/Schedule/Statistic/Statistic";
 import Schedule from "../../components/Schedule/Schedule";
+import ActivitiesDashBoard from "../../components/ActivitiesDashBoard/ActivitiesDashBoard";
 
 const DashBoard = (props) => {
     return ( 
@@ -29,7 +30,7 @@ const DashBoard = (props) => {
             </div>
            
             <div className={s.right}>
-        
+                <ActivitiesDashBoard/>
                  </div>
             </div>
          </div>
