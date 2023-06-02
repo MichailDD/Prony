@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    width: 1584px;
+    height: 85px;
+    align-items: center;
+    padding-left: 22px;
+
+}
+.card:hover{
+    background: #F2F2F2;
+}
+.descr{
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 31px;
+    margin-left: 460px;
+    padding-top: 7px;
+}
+.img__icon{
+    max-width: 9px;
+    min-height: 15px;
+}
+.span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0595px;
+    color: #000000;
+}
+.number{
+    margin-left: 596px;
+    margin-top: 3px;
+}
+.number__info{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}

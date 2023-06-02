@@ -3,6 +3,7 @@ import boasrdState from "./BoardsState";
 import s from "./Board.module.css"
 import TitlePages from "../../components/TitlePages/TitlePages";
 import BlueBtn from "../../components/Buttons/BlueBtn/BlueBtn";
+import BoardCards from "../../components/BoardsCardTask/BoardCards/BoardCards";
 const Boards = (props) => {
     return ( 
         <div className={s.main}>
@@ -15,6 +16,9 @@ const Boards = (props) => {
                 <span className={s.info__name}>{boasrdState[0].name}</span>
                 <span className={s.info__name}>{boasrdState[0].posts}</span>
 
+            </div>
+            <div className={s.boards__task}>
+                <BoardCards/>
             </div>
         </div>
             
