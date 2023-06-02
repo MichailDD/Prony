@@ -1,0 +1,25 @@
+.main__top{
+    display: flex;
+    justify-content: space-between;
+    width: 1584px;
+}
+.wrapper{
+    padding-left: 37px;
+    padding-top: 40px   ;
+}
+
+.info{
+    display: flex;
+    gap: 833px;
+    padding-left: 70px;
+    padding-top: 48px;
+}
+.info__name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.09px;
+    color: #272557;
+    display: inline-block;
+    
+}
