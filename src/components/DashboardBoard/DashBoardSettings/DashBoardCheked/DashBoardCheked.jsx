@@ -1,9 +1,9 @@
-import s from "./DashBoardRadio.module.css"
-const DashBoardRadio = (props) => {
+import s from "./DashBoardCheked.module.css"
+const DashBoardCheked = (props) => {
     return ( 
         <div className={s.main}>
             <div className={s.main__left}>
-                <input className={s.input} type="radio" name={props.name}  id="status" />
+                <input className={s.input} type='checkbox' name={props.name}   id="status" />
             </div>
             <div className={s.main__right}>
             <span className={s.title}>{props.title}</span>
@@ -13,4 +13,4 @@ const DashBoardRadio = (props) => {
      );
 }
  
-export default DashBoardRadio;
+export default DashBoardCheked;

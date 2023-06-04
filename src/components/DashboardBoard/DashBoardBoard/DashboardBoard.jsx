@@ -52,13 +52,15 @@ const DashboardBoard = () => {
         isOpen={isModalOpen}
         onRequestClose={() => setIsModalOpen(false)}
         contentLabel="Add Task Modal"
+        
         style={{
           overlay: {
             
           },
           content: {
             borderRadius: '20px', 
-            backgroundColor:'#F9F9FC'
+            backgroundColor:'#F9F9FC',
+            border:'2px solid #1565C0',
             
           },
         }}
@@ -75,3 +77,4 @@ const DashboardBoard = () => {
 };
 
 export default DashboardBoard;
+

@@ -1,11 +1,12 @@
 .main{
     display: flex;
-    gap: 10px;
+    gap: 13px;
     padding-top: 3px;
 }
 .main__right{
     display: flex;
     flex-direction: column;
+    gap: 0;
 
 }
 .title{
@@ -26,10 +27,6 @@
     padding-top: 3px;
 }
 .input{
-    width: 20px;
-    height: 20px;
-    color: #1565C0;
-}
-.input::checked{
-    color: #1565C0;
+    width: 18px;
+    height: 18px;
 }
