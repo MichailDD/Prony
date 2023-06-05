@@ -1,0 +1,22 @@
+.blok{
+    width: 137px;
+    height: 24px;
+    background: #b8cde6;
+    
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 19px;
+    padding-left: 16px;
+    padding-right: 6px;
+}
+.text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.07875px;
+    color: #272557;
+    
+    
+}

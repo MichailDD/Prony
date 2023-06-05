@@ -1,0 +1,12 @@
+.blok{
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 13px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.07875px;
+    color: #9E9E9E;
+}
