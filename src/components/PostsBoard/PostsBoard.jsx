@@ -1,6 +1,7 @@
+import s from "./PostsBoard.module.css"
 const PostsBoard = (props) => {
     return ( 
-        <div>
+        <div className={s.main}>
             
         </div>
      );

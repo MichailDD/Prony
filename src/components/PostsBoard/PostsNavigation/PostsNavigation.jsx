@@ -33,7 +33,7 @@ const PostsNavigation = (props) => {
                     <span className={s.sort__title}>Sort by:</span>
                     <div className={s.sort__blok}>
                     <span className={s.sort__text}>Newest</span>
-                    <img src={postNavigationState[0].img2} alt="" />
+                    <img src={postNavigationState[0].img2} alt="icon" />
                     </div>
                 </div>
             </div>
