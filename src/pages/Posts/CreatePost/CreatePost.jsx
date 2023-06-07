@@ -1,3 +1,4 @@
+import CreatePostModal from "../../../components/CreatePostModal/CreatePostModal";
 import InputPhoto from "../../../components/InputPhoto/InputPhoto";
 import TitlePages from "../../../components/TitlePages/TitlePages";
 import s from "./CreatePost.module.css"
@@ -7,7 +8,7 @@ const CreatePost = (props) => {
             <div className={s.main__wrapper}>
             <TitlePages title="Create post"/>
             <div className={s.create}> 
-                    
+               <CreatePostModal/>     
             </div>
             </div>
         </div>
