@@ -1,0 +1,27 @@
+.blok__input{
+    width: 646px;
+    height: 70px;
+    position: relative;
+    border: 1px dashed #E0E0E0;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.blok__label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding-left: 230px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.07875px;
+    color: #9E9E9E;
+    padding-bottom: 25px;
+}
+.delete_icon{
+    cursor: pointer;
+    position: absolute;
+    bottom: -30px;
+    left: 103px;
+}
