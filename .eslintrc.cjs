@@ -13,5 +13,6 @@ module.exports = {
   rules: {
     quotes: ["error", "double"],
     "no-unused-vars": [0],
+    "react/prop-types": "off",
   },
 };
