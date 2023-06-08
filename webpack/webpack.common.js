@@ -22,13 +22,13 @@ module.exports = {
         test: /\.(css|sass|scss)$/,
         exclude: /node_modules/,
         generator: {
-          filename: `styles/[name][hash][ext]`
+          filename: "styles/[name][hash][ext]"
         },
         use: ["style-loader", {
-          loader: 'css-loader',
+          loader: "css-loader",
           options: {
             modules: {
-              localIdentName: '[local]__[hash:base64:5]'
+              localIdentName: "[local]__[hash:base64:5]"
             }
           }
         }, "sass-loader"]
@@ -37,13 +37,13 @@ module.exports = {
         test: /\.(css|sass|scss)$/,
         exclude: /src/,
         generator: {
-          filename: `styles/[name][hash][ext]`
+          filename: "styles/[name][hash][ext]"
         },
         use: ["style-loader", {
-          loader: 'css-loader',
+          loader: "css-loader",
           options: {
             modules: {
-              localIdentName: '[local]'
+              localIdentName: "[local]"
             }
           }
         }, "sass-loader"]
@@ -52,7 +52,7 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf|svg)$/i,
         type: "asset/resource",
         generator: {
-          filename: 'fonts/[name][hash][ext]'
+          filename: "fonts/[name][hash][ext]"
         }
       },
     ]

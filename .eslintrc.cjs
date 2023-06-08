@@ -12,6 +12,6 @@ module.exports = {
   plugins: ["react-refresh"],
   rules: {
     quotes: ["error", "double"],
-    "no-unused-vars": ["none ", { vars: "all", args: "after-used", ignoreRestSiblings: false }],
+    "no-unused-vars": [0],
   },
 };
