@@ -1,3 +1,5 @@
+import avatar from  "/src/assets/image/avatar2.webp"
+import avatar2 from  '/src/assets/image/avatar3.webp'
 const activitiesDashBoardState =[
     {
         title:'Sophia-Rose Nava',
@@ -15,8 +17,8 @@ const activitiesDashBoardState =[
         descr:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
     {
-        avatar:'/src/assets/image/avatar2.webp',
-        avatar2:'/src/assets/image/avatar3.webp',
+        avatar:avatar,
+        avatar2:avatar2,
     },
     {
         time:"6 min ago",

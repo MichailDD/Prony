@@ -5,6 +5,8 @@ import CreatePost from "./pages/Posts/CreatePost/CreatePost";
 import Layoute from "./components/LayoutPage/LayoutePage";
 import Boards from "./pages/Boards/Boards";
 import Posts from "./pages/Posts/Posts";
+import VotersPosts from "./pages/Posts/VotersPosts/VotersPosts";
+import Tags from "./pages/Tags/Tags";
 const App = (props) => {
   return ( 
     <>
@@ -14,6 +16,8 @@ const App = (props) => {
         <Route path="/boards" element={<Boards/>}/>
         <Route path="/posts" element={<Posts/>}/>
         <Route path="/createPosts" element={<CreatePost/>}/>
+        <Route path="/votersPosts" element={<VotersPosts/>}/>
+        <Route path="/tags" element={<Tags/>}/>
         </Route>
       </Routes>
     </>

@@ -11,7 +11,6 @@ const TogleSwitch  = () => {
     <label className={`switch ${isChecked ? 'switch-on' : ''}`} >
       <input
         type="checkbox"
-        
         checked={isChecked}
         onChange={handleToggle}
       />

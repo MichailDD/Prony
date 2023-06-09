@@ -1,17 +1,29 @@
+import dashboard from "/src/assets/image/icon_menu1.svg"
+import dashboardDis from  "/src/assets/image/icon_menu1_dis.svg"
+import boards from  '/src/assets/image/icon_menu2.svg'
+import  posts from  "/src/assets/image/icon_menu3.svg"
+import  statuses from "/src/assets/image/icon_menu4.svg"
+import users from "/src/assets/image/icon_menu5.svg"
+import changelog from  "/src/assets/image/icon_menu6.svg"
+import settings from  '/src/assets/image/icon_menu7.svg'
+import integrations from "/src/assets/image/icon_menu8.svg"
+import boardsDis from  "/src/assets/image/icon_menu2_dis.svg"
+import postsDis from    "/src/assets/image/icon_menu3_dis.svg"
+import arrow from   "/src/assets/image/arrowMenu.svg"
 const navigationMenuState =[
     {
-        dashboard:"/src/assets/image/icon_menu1.svg",
-        dashboardDis:"/src/assets/image/icon_menu1_dis.svg",
-        boards:"/src/assets/image/icon_menu2.svg",
-        posts:"/src/assets/image/icon_menu3.svg",
-        statuses:"/src/assets/image/icon_menu4.svg",
-        users:"/src/assets/image/icon_menu5.svg",
-        changelog:"/src/assets/image/icon_menu6.svg",
-        settings:"/src/assets/image/icon_menu7.svg",
-        integrations:"/src/assets/image/icon_menu8.svg",
-        boardsDis:"/src/assets/image/icon_menu2_dis.svg",
-        postsDis:"/src/assets/image/icon_menu3_dis.svg",
-        arrow:"/src/assets/image/arrowMenu.svg"
+        dashboard:  dashboard,
+        dashboardDis:dashboardDis,
+        boards:boards,
+        posts:posts,
+        statuses:statuses,
+        users:users,
+        changelog:changelog,
+        settings:settings,
+        integrations:integrations,
+        boardsDis:boardsDis,
+        postsDis:postsDis,
+        arrow:arrow
 
     },
     {

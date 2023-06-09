@@ -1,4 +1,5 @@
 import s from "./Statistic.module.css"
+import icon from "/src/assets/image/arrowMenu.svg"
 const Statistic = (props) => {
     return ( 
         <div className={s.main}>
@@ -22,7 +23,7 @@ const Statistic = (props) => {
           </div>
             <div className={s.days}>
                 <span>last 90 days</span>
-                <img className={s.icon} src="/src/assets/image/arrowMenu.svg" alt="arrow" />
+                <img className={s.icon} src={icon}alt="arrow" />
             </div>
         </div>
      );

@@ -1,3 +1,6 @@
+import imgIcon from "/src/assets/image/postsIconTriangle.svg"
+import imgIcon2 from  "/src/assets/image/clipIcon.svg"
+import imgIcon3 from    "/src/assets/image/deleteIcon.svg"
 const createPostModalState =[
     {
         inputTitle:'Board name',
@@ -8,9 +11,9 @@ const createPostModalState =[
         inputTitle6:'Status'
     },
     {
-        imgIcon:'/src/assets/image/postsIconTriangle.svg',
-        imgIcon2:'/src/assets/image/clipIcon.svg',
-        imgIcon3:'/src/assets/image/deleteIcon.svg'
+        imgIcon:imgIcon,
+        imgIcon2:imgIcon2,
+        imgIcon3:imgIcon3
 
     }
 ]

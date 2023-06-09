@@ -1,6 +1,6 @@
 import s from "./NavigationItemAccordeon.module.css"
 import React, { useState } from 'react';
-
+import { Link } from "react-router-dom";
 const NavigationItemAccordeon = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -15,7 +15,7 @@ const NavigationItemAccordeon = (props) => {
         
         <ul className={s.list}>
             <div className={s.fake}></div>
-          <li className={s.list__item}>Settings 1</li>
+          <li className={s.list__item}><Link to="/tags">Settings 1</Link></li>
           <li className={s.list__item}>Settings 2</li>
           <li className={s.list__item}>Settings 3</li>
         </ul>
