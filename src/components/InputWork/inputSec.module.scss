@@ -1,0 +1,18 @@
+.feedback {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  row-gap: 24px;
+  column-gap: 24px;
+}
+
+.title {
+  grid-column: 1/3;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 39px;
+  color: #272557;
+  margin-bottom: -4px;
+}

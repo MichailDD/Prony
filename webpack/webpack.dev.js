@@ -9,6 +9,7 @@ module.exports = {
     open: true,
     historyApiFallback: true,
   },
+
   module: {
     rules: [{
       test: /\.(?:ico|gif|png|jpg|jpeg|webp)$/i,

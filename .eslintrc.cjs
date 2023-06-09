@@ -6,11 +6,13 @@ module.exports = {
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
   ],
+
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
   settings: { react: { version: "18.2" } },
   plugins: ["react-refresh"],
   rules: {
     quotes: ["error", "double"],
-    "no-unused-vars": ["none ", { vars: "all", args: "after-used", ignoreRestSiblings: false }],
+    "no-unused-vars": [0],
+    "react/prop-types": "off",
   },
 };

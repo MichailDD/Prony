@@ -10,7 +10,7 @@ module.exports = {
     path: path.resolve(__dirname, "..", "docs/"),
     filename: "scripts/bundle[hash].js",
     clean: true,
-    publicPath: '/'
+    publicPath: "/"
   },
 
   plugins: [
@@ -18,7 +18,7 @@ module.exports = {
       minimizer: {
         implementation: ImageMinimizerPlugin.imageminMinify,
         options: {
-          plugins: [['mozjpeg', { quality: 85 }]],
+          plugins: [["mozjpeg", { quality: 85 }]],
         },
       },
       generator: [
@@ -36,9 +36,9 @@ module.exports = {
     rules: [
       {
         test: /\.(png|svg|jpg|jpeg|webp)$/i,
-        type: 'asset/resource',
+        type: "asset/resource",
         generator: {
-          filename: '[path]/[name][hash][ext]'
+          filename: "[path]/[name][hash][ext]"
         }
       },
     ]
