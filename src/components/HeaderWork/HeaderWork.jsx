@@ -3,10 +3,12 @@ import s from "./headerWork.module.scss";
 import logo from "../../assets/image/WorkSpace/header/logo.png?as=webp";
 import avatar from "../../assets/image/WorkSpace/header/avatar.png?as=webp";
 import { IconRenderer } from "../../utils/Icon";
+import { useNavigate } from "react-router-dom";
 
 const HeaderWork = () => {
   const [buttonState, setButtonState] = useState([false, false, false]);
   const [loged, setLoge] = useState(false);
+  const navigation = useNavigate();
 
   return (
     <div className={`${s.headerWr} `}>
@@ -25,6 +27,7 @@ const HeaderWork = () => {
             className={`${s.boardIconWr} ${buttonState[1] ? s.active : ""}`}
             onClick={() => {
               setButtonState([false, true, false]);
+              navigation("../changelog");
             }}>
             <IconRenderer id="changelog" className={`${s.board} ${s.changelog}`} />
             <p className={s.boardText}>Changelog</p>
