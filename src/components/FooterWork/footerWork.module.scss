@@ -25,9 +25,18 @@
 }
 .footerTop {
   display: grid;
-  grid-template-columns: 10% 1fr;
-  gap: 146px;
+  grid-template-columns: 19% 1fr;
+  gap: 137px;
+  padding: 23px 0;
 }
+
+.footerUl {
+  padding: 0;
+  list-style: none;
+  margin-right: 88px !important;
+  margin-top: 22px !important;
+}
+
 .logo {
 }
 
@@ -41,8 +50,11 @@
   color: #f43658;
   margin-bottom: 16px;
   cursor: pointer;
+  margin-bottom: 16px;
 }
-
+.footerRight {
+  display: flex;
+}
 .footerLi {
   font-family: "Nunito";
   font-style: normal;
@@ -53,4 +65,34 @@
   font-feature-settings: "pnum" on, "lnum" on;
   cursor: pointer;
   color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.footerBottom {
+  display: flex;
+  padding: 22px 0;
+}
+.footerText1 {
+  margin-right: 566px;
+}
+
+.footerText2 {
+}
+
+.footerText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.footerLogos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 59px;
+  width: 117px;
+}
+.imgs {
 }
