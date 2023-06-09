@@ -1,4 +1,14 @@
+import imgAvatar from "/src/assets/image/postsavatar1.webp"
+import imgAvatar2 from "/src/assets/image/postsavatar2.webp"
+import imgAvatar3 from '/src/assets/image/postsavatar3.webp'
+import imgAvatar4 from '/src/assets/image/postsavatar4.webp'
+import imgAvatar5 from   '/src/assets/image/postsavatar5.webp'
+import imgAvatar6 from '/src/assets/image/postsavatar6.webp'
+import icon from "/src/assets/image/postIconLike.svg"
+import icon2 from '/src/assets/image/postIconMess.svg'
+import icon3 from  '/src/assets/image/dotsIcon2.svg'
 const postCardState=[
+    
     {
         name:'Konnor Castro',
         name2:'Bryson Casey',
@@ -8,12 +18,12 @@ const postCardState=[
         name6:'Kasim Daniels'
     },
     {
-        imgAvatar:'/src/assets/image/postsavatar1.webp',
-        imgAvatar2:'/src/assets/image/postsavatar2.webp',
-        imgAvatar3:'/src/assets/image/postsavatar3.webp',
-        imgAvatar4:'/src/assets/image/postsavatar4.webp',
-        imgAvatar5:'/src/assets/image/postsavatar5.webp',
-        imgAvatar6:'/src/assets/image/postsavatar6.webp'
+        imgAvatar:imgAvatar,
+        imgAvatar2:imgAvatar2,
+        imgAvatar3:imgAvatar3,
+        imgAvatar4:imgAvatar4,
+        imgAvatar5:imgAvatar5,
+        imgAvatar6:imgAvatar6
     },
     {
         title:'Send status updates back through Intercom'
@@ -29,9 +39,9 @@ const postCardState=[
         messege:'48'
     },
     {
-        icon:'/src/assets/image/postIconLike.svg',
-        icon2:'/src/assets/image/postIconMess.svg',
-        icon3:'/src/assets/image/dotsIcon2.svg'
+        icon:icon,
+        icon2:icon2,
+        icon3:icon3
 
     }
 ]

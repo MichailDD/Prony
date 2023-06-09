@@ -1,6 +1,7 @@
+import img from '/src/assets/image/postsIconArrow.svg'
 const postsState =[
     {
-        img:"/src/assets/image/postsIconArrow.svg"
+        img:img
     },
     {
         btnTitle:'Create post'

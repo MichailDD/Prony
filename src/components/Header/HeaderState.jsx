@@ -1,7 +1,9 @@
+import logo from  '/src/assets/image/logo.webp'
+import avatar from "/src/assets/image/avatar1.webp"
 const headerState = [
     {
-        logo:"/src/assets/image/logo.webp",
-        avatar:"/src/assets/image/avatar1.webp",
+        logo:logo,
+        avatar:avatar,
     },
     {
         text1:'Day theme',

@@ -1,0 +1,65 @@
+
+.span{
+width: 29px;
+height: 29px;
+border: 1px solid black;
+border-radius: 50%;
+}
+.task__color{
+    width: 127px;
+    height: 29px;
+    border-radius: 30px;
+}
+.card{
+   display: flex;
+   align-items: center;
+}
+.add__btn{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.07px;
+    color: #FFFFFF;
+    background: #1565C0;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 31px;
+    cursor: pointer;
+}
+.main__top{
+    width: 1583px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.taskBoard{
+    width: 1583px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(53, 64, 82, 0.05);
+    border-radius: 10px;
+    margin-top: 22px;
+}
+.taskBoard__title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.09px;
+    color: #272557;
+    display: inline-block;
+
+}
+.taskBoard__top{
+    padding-top: 24px;
+    padding-left: 69px;
+    padding-bottom: 22px;
+}
+.name{
+    width: 611px;
+}
+.color{
+    width: 319px;
+}
+.taskBoard__card{
+    width: 100%;
+    background-color: #FFFFFF;
+}

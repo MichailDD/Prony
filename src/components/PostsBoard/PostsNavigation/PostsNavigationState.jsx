@@ -1,8 +1,11 @@
+import img from "/src/assets/image/postIconSearch.svg"
+import img2 from "/src/assets/image/postsIconTriangle.svg"
+import img3 from   "/src/assets/image/postIconClose.svg"
 const postNavigationState =[
     {
-        img:"/src/assets/image/postIconSearch.svg",
-        img2:"/src/assets/image/postsIconTriangle.svg",
-        img3:"/src/assets/image/postIconClose.svg"
+        img:img,
+        img2:img2,
+        img3:img3
     },
      {
             title:'Search all posts',

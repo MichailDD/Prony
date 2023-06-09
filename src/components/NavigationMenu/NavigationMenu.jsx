@@ -2,6 +2,7 @@ import NavigationItem from "./NavigationItem/NavigationItem";
 import NavigationItemAccordeon from "./NavigationItem/NavigationMenuAccordeon/NavigationItemAccordeon";
 import s from "./NavigationMenu.module.css"
 import navigationMenuState from "./NavigationMenuState";
+
 const NavigationMenu = (props) => {
     return ( 
         <div className={s.blok__menu}>
