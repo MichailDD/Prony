@@ -1,0 +1,132 @@
+.popup{
+     width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 40px;
+    
+}
+.blok{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    
+}
+.left{
+    width: 707px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.07875px;
+    color: #9E9E9E;
+}
+.input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.07875px;
+    color: #000000;
+    padding-left: 20px;
+    
+}
+.input__descr{
+    width: 100%;
+    height: 115px;
+    padding-top: 14px;
+}
+.input:focus{
+    border: #1565C0;
+}
+.popup__menu{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(53, 64, 82, 0.05);
+    border-radius: 10px;
+    height: 522px;
+    padding-left: 44px;
+    padding-top: 33px;
+    margin-top: 16px;
+    display: flex;
+    gap: 72px;
+
+}
+.title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.219429px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #272557;
+    padding-top: 40px;
+}
+.top__radio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+    padding-top: 9px;
+}
+.top{
+    display: flex;
+    gap: 42px;
+    
+}
+.top__radio__right{
+    gap: 17px;
+    padding-top: 10px;
+}
+.privacy__span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.07875px;
+    color: #9E9E9E;
+}
+.bottom__settings{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 55px;
+    padding-left: 4px;
+}
+.bottom{
+    display: flex;
+    gap: 47px;
+}
+.buttons__btn{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.07px;
+    color: #FFFFFF;
+    background-color: #1565C0;
+    border-radius: 5px;
+    padding: 8px 52px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.buttons__btn:hover{
+    transform: scale(1.1)
+}
+.buttons{
+    display: flex;
+    gap: 23px;
+    padding-top: 51px;
+    padding-left: 385px;
+}
+.inactive{
+    background: #E0E0E0;
+    color: #9E9E9E;
+}
+.inactive:hover{
+    color: #FFFFFF;
+    background-color: #1565C0;
+}

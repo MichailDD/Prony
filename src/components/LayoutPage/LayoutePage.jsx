@@ -2,7 +2,7 @@ import { Outlet ,Link} from "react-router-dom";
 import Header from "../Header/Header";
 import s from "./Layoute.module.css"
 import NavigationMenu from "../NavigationMenu/NavigationMenu";
-Outlet
+
 
 const Layoute = (props) => {
     return ( 

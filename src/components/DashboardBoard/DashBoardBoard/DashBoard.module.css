@@ -1,0 +1,87 @@
+.button{
+    width: 148px;
+    height: 37px;
+    background: #1565C0;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.07px;
+    cursor: pointer;  
+    transition: all 0.3s ease;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+.board__top{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main{
+    width: 1584px;
+    margin-top: 40px;
+    margin-left: 37px;
+    
+}
+.dashboard__list{
+    text-decoration: none;
+}
+.list__blok{
+    display: flex;
+    align-items: center;
+    
+}
+.list__left{
+    display: flex;
+    align-items: center;
+    gap: 39px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0595px;
+    color: #000000;
+    flex: 1 1 auto
+    
+
+}
+.number{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-left: 457px;
+    
+}
+.dashboard__item{
+    max-width: 1584px;
+    height: 85px;
+   padding: 30px 43px 30px 22px;
+   background: #F8F8F8;
+}
+
+.name__span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.09px;
+    color: #272557;
+}
+.name{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 70px;
+    gap: 833px;
+    margin-bottom: 20px;
+}

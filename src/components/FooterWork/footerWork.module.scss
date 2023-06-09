@@ -1,0 +1,56 @@
+// <div className={s.footerWr}>
+// <div className={s.footerBody}>
+//   <div className={s.footerTop}>
+// 	<div className={s.footerLeft}>
+// 	  <img src={logo} className={s.logo} />
+// 	</div>
+// 	<div className={s.footerRight}>
+// 	  <ul className={s.footerUl}>
+// 		<li className={s.footerTitle}>Product</li>
+// 		<li className={s.footerLi}>Features</li>
+// 		<li className={s.footerLi}>Integrations</li>
+// 		<li className={s.footerLi}>Case studies</li>
+// 		<li className={s.footerLi}>Documentation</li>
+// 	  </ul>
+// 	</div>
+//   </div>
+//   <div className={s.footerBottom}></div>
+// </div>
+// </div>
+
+.footerWr {
+  background: #272557;
+}
+.footerBody {
+}
+.footerTop {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  gap: 146px;
+}
+.logo {
+}
+
+.footerLiTitle {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.0595px;
+  color: #f43658;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.footerLi {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  cursor: pointer;
+  color: #ffffff;
+}

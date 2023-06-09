@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    gap: 10px;
+    padding-top: 3px;
+}
+.main__right{
+    display: flex;
+    flex-direction: column;
+
+}
+.title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.0595px;
+    color: #272557;
+    padding-top: 5px;
+}
+.descr{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3px;
+    color: #9E9E9E;
+    max-width: 295px;
+    padding-top: 3px;
+}
+.input{
+    width: 20px;
+    height: 20px;
+    color: #1565C0;
+}
+.input::checked{
+    color: #1565C0;
+}

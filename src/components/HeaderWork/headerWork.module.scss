@@ -1,0 +1,110 @@
+.board {
+  fill: #7791c2;
+  &.active {
+    fill: #1565c0;
+  }
+}
+.headerWr {
+  padding-top: 27px;
+  padding-bottom: 27px;
+  border-bottom: 3px solid #f8faff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 597px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  &.active {
+    margin-left: -13px;
+
+    > .boardIconWr {
+      display: none;
+    }
+  }
+}
+
+.boardText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.0595px;
+  color: #272557;
+}
+.boardIconWr {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  svg {
+    margin-right: 11px;
+  }
+  &.active {
+    svg {
+      fill: #1565c0 !important;
+    }
+    p {
+      color: #1565c0;
+    }
+  }
+}
+
+.boardPar {
+  width: 13px;
+  height: 10px;
+}
+
+.changelog {
+  width: 15px;
+  height: 9px;
+}
+
+.login {
+  width: 12px;
+  height: 12px;
+}
+
+.loged {
+  display: none;
+  &.active {
+    display: flex;
+    align-items: center;
+  }
+  .boardIconWr {
+    margin-right: 45px;
+  }
+}
+
+.avatarWr {
+  display: flex;
+  align-items: center;
+}
+
+.avatarText {
+  margin-left: 19px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.0595px;
+  color: #272557;
+}
+
+.etc {
+  width: 3px;
+  cursor: pointer;
+  margin-left: 26px;
+  fill: #7791c2;
+  height: 17px;
+}

@@ -1,7 +1,7 @@
 import TitlePages from "../../components/TitlePages/TitlePages";
 import dashBoardState from "./DashboardState";
 import s from "./Dashboard.module.css"
-import DashBoardCards from "../../components/DashBoardCards/DashBoardCards";
+// import DashBoardCards from "../../components/DashBoardCards/DashBoardCards";
 import Statistic from "../../components/Schedule/Statistic/Statistic";
 import Schedule from "../../components/Schedule/Schedule";
 import ActivitiesDashBoard from "../../components/ActivitiesDashBoard/ActivitiesDashBoard";
@@ -15,7 +15,7 @@ const DashBoard = (props) => {
             <div className={s.main__blok}>
             <div className={s.left}>
                     <div className={s.top}>
-                    <DashBoardCards/>
+                    {/* <DashBoardCards/> */}
                     </div>
                     <div className={s.bottom}>
                         <div className={s.statistic}>

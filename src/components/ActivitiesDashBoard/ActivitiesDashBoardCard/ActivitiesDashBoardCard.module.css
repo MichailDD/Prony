@@ -17,9 +17,10 @@
 .info{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    max-width: 400px;
     padding-left: 27px;
     padding-top: 2px;
+    flex: 1 1 auto;
 
 }
 .name{
@@ -67,6 +68,6 @@
     line-height: 21px;
     letter-spacing: 0.07875px;
     color: #9E9E9E;
-   width: 80px;
-   
+    padding-right: 30px;
+    
 }
