@@ -76,7 +76,7 @@ const TagsCard = () => {
         </form>
       </Modal>
 
-      {/* Отображение списка задач */}
+      
       <div className={s.taskBoard}> 
       <div className={s.taskBoard__top}>
                 <span className={`${s.name} ${s.taskBoard__title}`}>{tagsState[1].span1}</span>
