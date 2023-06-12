@@ -1,6 +1,7 @@
 import UserDatailsHeader from "./UserDatailsHeader/UserDatailsHeader";
 import s from "./UserDatails.module.css"
 import UserDatailsPosts from "./UserDatailsPosts/UserDatailsPosts";
+import TitlePages from "../TitlePages/TitlePages";
 const UserDatails = (props) => {
     return (  
         <div className={s.main}>

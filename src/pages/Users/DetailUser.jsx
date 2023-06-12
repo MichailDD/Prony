@@ -1,7 +1,7 @@
 import TitlePages from "../../components/TitlePages/TitlePages";
 import UserDatails from "../../components/UserDatails/UserDatails";
-import s from "./Users.module.css"
-const Users = (props) => {
+import s from "./DetailUsers.module.css"
+const DetailUsers = (props) => {
     return (
          <div className={s.main}>
             <div className={s.main__wrapper}>
@@ -16,4 +16,4 @@ const Users = (props) => {
      );
 }
  
-export default Users;
+export default DetailUsers;

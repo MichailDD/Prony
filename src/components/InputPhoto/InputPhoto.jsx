@@ -17,9 +17,6 @@ function InputPhoto(props) {
       {photo ? (
         <>
           <img src={photo} alt="Uploaded Photo" style={{ position: 'absolute', bottom: '-70px', width: '93px', height: '68px' }} />
-          {/* <button onClick={handlePhotoRemove} style={{ position: 'absolute', bottom: '5px', right: '5px' }}>
-          
-          </button> */}
           <img className={s.delete_icon} onClick={handlePhotoRemove} src={props.icon} alt="icon" />
         </>
       ) : (

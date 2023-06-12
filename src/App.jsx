@@ -8,7 +8,8 @@ import Posts from "./pages/Posts/Posts";
 import WorkSpace from "./pages/WorkSpace/WorkSpace";
 import VotersPosts from "./pages/Posts/VotersPosts/VotersPosts";
 import TagsCard from "./pages/Tags/TagsBoard/TagsCard/TagsCard";
-import Users from "./pages/Users/Users";
+import DetailUsers from "./pages/Users/DetailUser";
+import Users from "./pages/Users/Users/Users";
 const App = () => {
   return (
     <>
@@ -21,7 +22,7 @@ const App = () => {
           <Route path="/votersPosts" element={<VotersPosts />} />
           <Route path="/tags" element={<TagsCard />} />
           <Route path="/users" element={<Users />} />
-
+          <Route path="/detailUser" element={<DetailUsers />} />
         </Route>
         <Route>
           <Route path="/WorkSpacePage" element={<WorkSpace />} />
