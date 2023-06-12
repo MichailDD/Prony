@@ -1,0 +1,20 @@
+.card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.card__desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.09px;
+    color: #272557;
+}
+.card__number{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 38px;
+    letter-spacing: -0.219429px;
+    text-transform: uppercase;
+    color: #272557;
+}

@@ -8,6 +8,7 @@ import Posts from "./pages/Posts/Posts";
 import WorkSpace from "./pages/WorkSpace/WorkSpace";
 import VotersPosts from "./pages/Posts/VotersPosts/VotersPosts";
 import TagsCard from "./pages/Tags/TagsBoard/TagsCard/TagsCard";
+import Users from "./pages/Users/Users";
 const App = () => {
   return (
     <>
@@ -19,6 +20,8 @@ const App = () => {
           <Route path="/createPosts" element={<CreatePost />} />
           <Route path="/votersPosts" element={<VotersPosts />} />
           <Route path="/tags" element={<TagsCard />} />
+          <Route path="/users" element={<Users />} />
+
         </Route>
         <Route>
           <Route path="/WorkSpacePage" element={<WorkSpace />} />
