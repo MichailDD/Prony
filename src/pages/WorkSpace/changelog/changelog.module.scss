@@ -1,0 +1,176 @@
+.filterWr {
+  width: 360px;
+  height: 89px;
+  background-color: red;
+  margin-top: 36px;
+}
+
+.recordsWr {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-top: 38px;
+  margin-bottom: 50px;
+}
+
+.recordWr {
+  width: 100%;
+}
+
+.status {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 21px;
+  letter-spacing: 0.07875px;
+  color: #ffffff;
+  margin-top: 10px;
+  display: inline-block;
+  padding: 0 21px;
+  border-radius: 20px;
+}
+
+.recordBody {
+  display: grid;
+  grid-template-columns: 5% 1fr;
+  margin-top: 20px;
+  grid-template-columns: 4.4% 1fr;
+}
+
+.recordRightTop {
+  display: flex;
+  margin-top: 6px;
+
+  gap: 13px;
+}
+
+.recordTopText1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.0595px;
+  color: #272557;
+}
+
+.recordTopText2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.07875px;
+  color: #7791c2;
+}
+
+.recordRightBottomText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 128.5%;
+  margin-top: 11px;
+
+  color: #272557;
+}
+
+.recordTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 128.5%;
+  color: #272557;
+}
+
+.pages {
+  margin: 50px auto;
+  display: block;
+  cursor: pointer;
+}
+
+.new {
+  background: #27ae60;
+}
+
+.improved {
+  background: #1565c0;
+}
+
+.fixed {
+  background: #f43658;
+}
+
+.filterWr {
+  background: #f8faff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.filterSubText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 21px;
+  /* identical to box height, or 210% */
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.07875px;
+
+  /* #AEBDDA */
+  color: #7791c2;
+}
+
+select {
+  /* styling */
+  background-color: white;
+  border: thin solid blue;
+  border-radius: 4px;
+  display: inline-block;
+  font: inherit;
+  line-height: 1.5em;
+  padding: 0.5em 3.5em 0.5em 1em;
+
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.minimal {
+  width: 100%;
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+#select1 {
+  width: 250px;
+}
+
+#select1 > option {
+  width: 250px;
+}
+
+.minimal:focus {
+  background-image: linear-gradient(45deg, green 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, green 50%), linear-gradient(to right, #ccc, #ccc);
+  background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em, calc(100% - 2.5em) 0.5em;
+  background-size: 5px 5px, 5px 5px, 1px 1.5em;
+  background-repeat: no-repeat;
+  border-color: green;
+  outline: 0;
+}
+
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
