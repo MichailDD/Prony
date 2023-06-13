@@ -10,6 +10,7 @@ import VotersPosts from "./pages/Posts/VotersPosts/VotersPosts";
 import WorkSpaceMain from "./pages/WorkSpace/WorkSpaceMain/WorkSpaceMain";
 import WorkSpace from "./pages/WorkSpace/WorkSpace";
 import Changelog from "./pages/WorkSpace/changelog/Changelog";
+import BoardWork from "./pages/WorkSpace/BoardWork/BoardWork";
 
 const App = () => {
   return (
@@ -22,11 +23,10 @@ const App = () => {
           <Route path="/createPosts" element={<CreatePost />} />
           <Route path="/votersPosts" element={<VotersPosts />} />
         </Route>
-        <Route>
-          <Route path="/" element={<WorkSpace />}>
-            <Route path="Main" element={<WorkSpaceMain />} />
-            <Route path="Changelog" element={<Changelog />} />
-          </Route>
+        <Route path="/" element={<WorkSpace />}>
+          <Route path="Main" element={<WorkSpaceMain />} />
+          <Route path="Changelog" element={<Changelog />} />
+          <Route path="Board" element={<BoardWork />} />
         </Route>
       </Routes>
     </>

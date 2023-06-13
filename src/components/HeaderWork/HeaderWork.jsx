@@ -13,12 +13,19 @@ const HeaderWork = () => {
   return (
     <div className={`${s.headerWr} `}>
       <div className={`${s.header} container`}>
-        <img className={s.logo} src={logo} />
+        <img
+          className={s.logo}
+          src={logo}
+          onClick={() => {
+            navigation("../Main");
+          }}
+        />
         <div className={`${s.right} ${loged ? s.active : ""}`}>
           <div
             className={`${s.boardIconWr} ${buttonState[0] ? s.active : ""}`}
             onClick={() => {
               setButtonState([true, false, false]);
+              navigation("../Board");
             }}>
             <IconRenderer id="board" className={`${s.board} ${s.boardPar}`} />
             <p className={s.boardText}>Boards</p>
@@ -36,6 +43,7 @@ const HeaderWork = () => {
             className={`${s.boardIconWr} ${buttonState[2] ? s.active : ""}`}
             onClick={() => {
               setButtonState([false, false, true]);
+              navigation("../Board");
             }}>
             <IconRenderer id="login" className={`${s.board} ${s.login}`} />
             <p className={s.boardText}>Log in</p>
