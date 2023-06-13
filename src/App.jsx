@@ -13,6 +13,7 @@ import Changelog from "./pages/WorkSpace/changelog/Changelog";
 import BoardWork from "./pages/WorkSpace/BoardWork/BoardWork";
 import ChangePassword from "./pages/WorkSpace/ChangePassword/ChangePassword";
 import Profile from "./pages/WorkSpace/profile/Profile";
+import Avatar from "./pages/WorkSpace/Avatar/Avatar";
 
 const App = () => {
   return (
@@ -31,7 +32,7 @@ const App = () => {
           <Route path="Board" element={<BoardWork />} />
           <Route path="ChangePassword" element={<ChangePassword />} />
           <Route path="ChangeProfile" element={<Profile />} />
-          <Route path="ChangeAvatar" element={<Profile />} />
+          <Route path="ChangeAvatar" element={<Avatar />} />
         </Route>
       </Routes>
     </>
