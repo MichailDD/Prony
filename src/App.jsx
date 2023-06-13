@@ -12,6 +12,7 @@ import WorkSpace from "./pages/WorkSpace/WorkSpace";
 import Changelog from "./pages/WorkSpace/changelog/Changelog";
 import BoardWork from "./pages/WorkSpace/BoardWork/BoardWork";
 import ChangePassword from "./pages/WorkSpace/ChangePassword/ChangePassword";
+import Profile from "./pages/WorkSpace/profile/Profile";
 
 const App = () => {
   return (
@@ -29,6 +30,8 @@ const App = () => {
           <Route path="Changelog" element={<Changelog />} />
           <Route path="Board" element={<BoardWork />} />
           <Route path="ChangePassword" element={<ChangePassword />} />
+          <Route path="ChangeProfile" element={<Profile />} />
+          <Route path="ChangeAvatar" element={<Profile />} />
         </Route>
       </Routes>
     </>

@@ -69,9 +69,27 @@ const HeaderWork = () => {
                 }}
               />
               <ul className={`${s.avatarMenu} ${menu ? s.active : ""}`}>
-                <li className={s.avatarMenuText}>Change password</li>
-                <li className={s.avatarMenuText}>Profile</li>
-                <li className={s.avatarMenuText}>Avatar</li>
+                <li
+                  className={s.avatarMenuText}
+                  onClick={() => {
+                    navigation("../ChangePassword");
+                  }}>
+                  Change password
+                </li>
+                <li
+                  className={s.avatarMenuText}
+                  onClick={() => {
+                    navigation("../ChangeProfile");
+                  }}>
+                  Profile
+                </li>
+                <li
+                  className={s.avatarMenuText}
+                  onClick={() => {
+                    navigation("../ChangeAvatar");
+                  }}>
+                  Avatar
+                </li>
                 <li className={s.avatarMenuText}>Logout</li>
               </ul>
             </div>
