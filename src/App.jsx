@@ -15,6 +15,7 @@ import ChangePassword from "./pages/WorkSpace/ChangePassword/ChangePassword";
 import Profile from "./pages/WorkSpace/profile/Profile";
 import Avatar from "./pages/WorkSpace/Avatar/Avatar";
 import Error404 from "./pages/WorkSpace/404/error404";
+import Error505 from "./pages/WorkSpace/505/Error505";
 
 const App = () => {
   return (
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="ChangeProfile" element={<Profile />} />
           <Route path="ChangeAvatar" element={<Avatar />} />
           <Route path="404" element={<Error404 />} />
+          <Route path="500" element={<Error505 />} />
         </Route>
       </Routes>
     </>
