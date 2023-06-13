@@ -7,7 +7,8 @@ import { useNavigate } from "react-router-dom";
 
 const HeaderWork = () => {
   const [buttonState, setButtonState] = useState([false, false, false]);
-  const [loged, setLoge] = useState(false);
+  const [loged, setLog] = useState(false);
+  const [menu, setMenu] = useState(false);
   const navigation = useNavigate();
 
   return (
@@ -43,7 +44,7 @@ const HeaderWork = () => {
             className={`${s.boardIconWr} ${buttonState[2] ? s.active : ""}`}
             onClick={() => {
               setButtonState([false, false, true]);
-              navigation("../Board");
+              setLog(true);
             }}>
             <IconRenderer id="login" className={`${s.board} ${s.login}`} />
             <p className={s.boardText}>Log in</p>
@@ -60,7 +61,19 @@ const HeaderWork = () => {
             <div className={s.avatarWr}>
               <img src={avatar} className={s.avatarImg} />
               <p className={s.avatarText}>Lucy Lavender</p>
-              <IconRenderer id="etc" className={`${s.board} ${s.etc}`} />
+              <IconRenderer
+                id="etc"
+                className={`${s.board} ${s.etc}`}
+                onClick={() => {
+                  setMenu(!menu);
+                }}
+              />
+              <ul className={`${s.avatarMenu} ${menu ? s.active : ""}`}>
+                <li className={s.avatarMenuText}>Change password</li>
+                <li className={s.avatarMenuText}>Profile</li>
+                <li className={s.avatarMenuText}>Avatar</li>
+                <li className={s.avatarMenuText}>Logout</li>
+              </ul>
             </div>
           </div>
         </div>

@@ -11,6 +11,7 @@ import WorkSpaceMain from "./pages/WorkSpace/WorkSpaceMain/WorkSpaceMain";
 import WorkSpace from "./pages/WorkSpace/WorkSpace";
 import Changelog from "./pages/WorkSpace/changelog/Changelog";
 import BoardWork from "./pages/WorkSpace/BoardWork/BoardWork";
+import ChangePassword from "./pages/WorkSpace/ChangePassword/ChangePassword";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="Main" element={<WorkSpaceMain />} />
           <Route path="Changelog" element={<Changelog />} />
           <Route path="Board" element={<BoardWork />} />
+          <Route path="ChangePassword" element={<ChangePassword />} />
         </Route>
       </Routes>
     </>
