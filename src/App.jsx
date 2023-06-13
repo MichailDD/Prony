@@ -14,6 +14,7 @@ import BoardWork from "./pages/WorkSpace/BoardWork/BoardWork";
 import ChangePassword from "./pages/WorkSpace/ChangePassword/ChangePassword";
 import Profile from "./pages/WorkSpace/profile/Profile";
 import Avatar from "./pages/WorkSpace/Avatar/Avatar";
+import Error404 from "./pages/WorkSpace/404/error404";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
           <Route path="ChangePassword" element={<ChangePassword />} />
           <Route path="ChangeProfile" element={<Profile />} />
           <Route path="ChangeAvatar" element={<Avatar />} />
+          <Route path="404" element={<Error404 />} />
         </Route>
       </Routes>
     </>

@@ -8,15 +8,15 @@ const Profile = () => {
       <div className={s.form}>
         <div className={s.formInputWr}>
           <p className={s.formInputText}>First name</p>
-          <input type="password" className={s.formInput} placeholder="Enter your first name" />
+          <input className={s.formInput} placeholder="Enter your first name" />
         </div>
         <div className={s.formInputWr}>
           <p className={s.formInputText}>Last name</p>
-          <input type="password" className={s.formInput} placeholder="Enter your last name" />
+          <input className={s.formInput} placeholder="Enter your last name" />
         </div>
         <div className={s.formInputWr}>
           <p className={s.formInputText}>Email</p>
-          <input type="password" className={s.formInput} placeholder="Enter your email" />
+          <input className={s.formInput} placeholder="Enter your email" />
         </div>
         <div className={s.formBottom}>
           <p className={s.formCancel}>Cancel</p>

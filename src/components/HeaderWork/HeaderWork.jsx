@@ -90,7 +90,13 @@ const HeaderWork = () => {
                   }}>
                   Avatar
                 </li>
-                <li className={s.avatarMenuText}>Logout</li>
+                <li
+                  className={s.avatarMenuText}
+                  onClick={() => {
+                    setLog(false);
+                  }}>
+                  Logout
+                </li>
               </ul>
             </div>
           </div>
