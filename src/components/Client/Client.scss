@@ -1,0 +1,13 @@
+.client {
+  flex: 0 1 auto;
+  // min-height: 642px;
+  &__row {
+    display: flex;
+    align-items: flex-start;
+    gap: 134px;
+  }
+  &__body {
+    padding: 26px 0 98px;
+    width: 100%;
+  }
+}

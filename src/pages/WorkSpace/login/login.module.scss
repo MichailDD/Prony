@@ -1,0 +1,250 @@
+.changePasswordTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 39px;
+  text-align: center;
+  color: #272557;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.form {
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(202, 221, 255, 0.55);
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 25px 35px;
+  margin-bottom: 67px;
+
+  width: 595px;
+  height: 640px;
+}
+
+.formInputWr {
+  margin-bottom: 13px;
+}
+
+.formInputText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.07875px;
+  color: #272557;
+  margin-bottom: 11px;
+}
+
+.formInput {
+  height: 44px;
+  border: 1px solid #e5ecf9;
+  border-radius: 7px;
+  width: 100%;
+  padding: 9px 22px;
+}
+
+.formBottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formCancel {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 39px;
+  text-decoration-line: underline;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #1565c0;
+  cursor: pointer;
+}
+
+.formBtn {
+  width: 182px;
+  height: 41px;
+  background: #1565c0;
+  border-radius: 30px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.0595px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.formInputEtc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkboxWr {
+  display: flex;
+
+  align-items: center;
+  padding-left: 5px;
+  gap: 13px;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  transition: 0.3s;
+  border: 1px solid #3f51b5;
+  cursor: pointer;
+}
+
+.checkboxActive {
+  background-image: url("../../../assets/image/WorkSpace/login/Checkbox.svg");
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.checkboxText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  /* identical to box height, or 216% */
+  letter-spacing: -0.219429px;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* #272557 */
+  color: #272557;
+}
+
+.formInputEtcText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  /* identical to box height, or 216% */
+  text-align: right;
+  letter-spacing: -0.219429px;
+  text-decoration-line: underline;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Buttons/Outlined/Primary */
+  color: #1565c0;
+}
+
+.formBottom {
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.formBtn {
+  margin-bottom: 10px;
+}
+
+.regRef {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 45px;
+  /* identical to box height, or 378% */
+  text-align: center;
+  letter-spacing: -0.219429px;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* #272557 */
+  color: #272557;
+
+  span {
+    text-align: center;
+    letter-spacing: -0.219429px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #1565c0;
+    text-decoration: underline;
+  }
+}
+
+// <div className={s.loginServices}>
+// <p className={s.loginTitle}>Or login with social:</p>
+// <div className={s.loginItems}>
+//   <div className={s.loginItem}>
+// 	<a href="google.com"></a>
+//   </div>
+//   <div className={s.loginItem}>
+// 	<a href="google.com"></a>
+//   </div>
+//   <div className={s.loginItem}>
+// 	<a href="google.com"></a>
+//   </div>
+//   <div className={s.loginItem}>
+// 	<a href="google.com"></a>
+//   </div>
+//   <div className={s.loginItem}>
+// 	<a href="google.com"></a>
+//   </div>
+// </div>
+// </div>.
+.loginServices {
+  margin-top: 20px;
+}
+
+.loginTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 45px;
+  letter-spacing: -0.219429px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #272557;
+
+  text-align: center;
+}
+
+.loginItems {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 59px;
+  row-gap: 16px;
+  margin-top: 21px;
+}
+
+.loginItem {
+  width: 100%;
+  height: 43px;
+  padding-left: 16px;
+  padding-top: 10px;
+  border: 3px solid #e5ecf9;
+  border-radius: 7px;
+  display: flex;
+  padding-top: 0;
+  display: flex;
+
+  a {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    display: flex;
+  }
+
+  img {
+    margin-right: 30px;
+  }
+}
+
+.loginViaText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: -0.219429px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #272557;
+}

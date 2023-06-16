@@ -1,0 +1,39 @@
+.avatar {
+	font-size: 12px;
+	line-height: 21px;
+	letter-spacing: 0.08px;
+	&__body {
+		display: flex;
+		align-items: center;
+		gap: 48px;
+	}
+	&__subtitle {
+		font-size: 12px;
+		line-height: 21px;
+		letter-spacing: 0.08px;
+		margin: 0 0 19px;
+	}
+	&__image {
+		width: 176px;
+		height: 176px;
+		border-radius: 100%;
+	}
+	& .upload-block {
+		width: 100%;
+	}
+	& .input-file__custom {
+		height: 131px;
+	}
+	& .input-file__text {
+		height: 100%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 0;
+		line-height: 15px;
+		span {
+			display: inline-block;
+			margin: 6px 0 0;
+		}
+	}
+}

@@ -1,0 +1,23 @@
+.button {
+	display: block;
+	font-family: 'Nunito';
+	background: #1565C0;
+	border-radius: 30px;
+	padding: 10px 43px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0.06px;
+	color: #FFFFFF;
+	width: max-content;
+	position: relative;
+	text-align: center;
+	&:hover {
+		box-shadow: 0 5px 20px rgba(21, 101, 192, 0.4);
+	}
+	&.red {
+		background: #F43658;
+		&:hover {
+			box-shadow: 0 5px 20px rgba(244, 54, 89, 0.4);
+		}
+	}
+}
