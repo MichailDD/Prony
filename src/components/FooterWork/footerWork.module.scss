@@ -1,25 +1,6 @@
-// <div className={s.footerWr}>
-// <div className={s.footerBody}>
-//   <div className={s.footerTop}>
-// 	<div className={s.footerLeft}>
-// 	  <img src={logo} className={s.logo} />
-// 	</div>
-// 	<div className={s.footerRight}>
-// 	  <ul className={s.footerUl}>
-// 		<li className={s.footerTitle}>Product</li>
-// 		<li className={s.footerLi}>Features</li>
-// 		<li className={s.footerLi}>Integrations</li>
-// 		<li className={s.footerLi}>Case studies</li>
-// 		<li className={s.footerLi}>Documentation</li>
-// 	  </ul>
-// 	</div>
-//   </div>
-//   <div className={s.footerBottom}></div>
-// </div>
-// </div>
-
 .footerWr {
   background: #272557;
+  position: relative;
 }
 .footerBody {
 }
@@ -71,6 +52,8 @@
 .footerBottom {
   display: flex;
   padding: 22px 0;
+  position: relative;
+  z-index: 1;
 }
 .footerText1 {
   margin-right: 566px;
@@ -95,4 +78,13 @@
   width: 117px;
 }
 .imgs {
+}
+
+.footerBottomBack {
+  position: absolute;
+  background: #322f71;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 62px;
 }

@@ -57,6 +57,7 @@ const FooterWork = () => {
           </div>
         </div>
       </div>
+      <div className={s.footerBottomBack}></div>
     </div>
   );
 };
