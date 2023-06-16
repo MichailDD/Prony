@@ -23,7 +23,6 @@ import NewPass from "./pages/WorkSpace/newPassword/NewPass";
 import Client from "./components/Client/Client.jsx";
 //
 import AvatarScreen from "./components/AvatarScreen/AvatarScreen";
-import Breadcrumbs from "./components/UI/Breadcrumbs/Breadcrumbs";
 import AddWorkspace from "./components/Client/AddWorkspace/AddWorkspace";
 import ChangePassWorkspace from "./components/Client/ChangePassWorkspace/ChangePassWorkspace";
 import DeleteWorkspace from "./components/Client/DeleteWorkspace/DeleteWorkspace";
