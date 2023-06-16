@@ -1,0 +1,17 @@
+.input-body {
+	&__title,
+	&__text {
+		font-size: 12px;
+		line-height: 26px;
+	}
+	&__title {
+		font-weight: 400;
+		letter-spacing: 0.06px;
+		color: #272557;
+	}
+	&__text {
+		font-size: 12px;
+		letter-spacing: 0.3px;
+		color: #9E9E9E;
+	}
+}

@@ -1,0 +1,28 @@
+.breadcrumbs {
+	background: #F8FAFF;
+	&__list {
+		display: flex;
+		align-items: center;
+		padding: 4px 0;
+	}
+	&__item {
+		display: flex;
+		align-items: center;
+		font-size: 10px;
+		line-height: 20px;
+		letter-spacing: 0.3px;
+		color: #7791C2;		
+		&::after {
+			content: '/';
+			display: block;
+			margin: 0 5px;
+			color: #7791C2;		
+		}
+		&:last-child{
+			color: #272557;
+			&::after {
+			display: none;
+		}
+	}
+	}
+}

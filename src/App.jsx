@@ -20,6 +20,7 @@ import Login from "./pages/WorkSpace/login/Login";
 import Registration from "./pages/WorkSpace/registration/Registration";
 import Reset from "./pages/WorkSpace/reset/Reset";
 import NewPass from "./pages/WorkSpace/newPassword/NewPass";
+import Client from "./components/Client/Client.jsx";
 
 const App = () => {
   return (
@@ -46,6 +47,7 @@ const App = () => {
           <Route path="Reset" element={<Reset />} />
           <Route path="NewPass" element={<NewPass />} />
         </Route>
+        <Route path="/" element={<Client />}></Route>
       </Routes>
     </>
   );

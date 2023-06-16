@@ -1,0 +1,36 @@
+.navbar {
+	flex: 0 0 auto;
+	padding: 46px 0 20px;
+	letter-spacing: 0.06px;
+	line-height: 20px;
+	&__title,
+	&__subtitle,
+	&__list,
+	&__item {
+		margin: 0 0 15px;
+	}
+	&__title {
+		font-size: 18px;
+		margin: 0 0 15px;
+		color: #1565C0;
+		font-weight: 400;
+	}
+	&__subtitle {
+		font-size: 18px;
+		line-height: 20px;
+		margin: 0 0 15px;
+		font-weight: 400;
+	}
+
+	&__item {
+		&:last-child {
+			margin: 0;
+		}
+	}
+	&__link {
+		color: #7791C2;
+		&:hover {
+			color: #133b84;
+		}
+	}
+}
