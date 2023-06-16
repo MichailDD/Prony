@@ -21,6 +21,18 @@ import Registration from "./pages/WorkSpace/registration/Registration";
 import Reset from "./pages/WorkSpace/reset/Reset";
 import NewPass from "./pages/WorkSpace/newPassword/NewPass";
 import Client from "./components/Client/Client.jsx";
+//
+import AvatarScreen from "./components/AvatarScreen/AvatarScreen";
+import Breadcrumbs from "./components/UI/Breadcrumbs/Breadcrumbs";
+import AddWorkspace from "./components/Client/AddWorkspace/AddWorkspace";
+import ChangePassWorkspace from "./components/Client/ChangePassWorkspace/ChangePassWorkspace";
+import DeleteWorkspace from "./components/Client/DeleteWorkspace/DeleteWorkspace";
+import EditWorkspace from "./components/Client/EditWorkspace/EditWorkspace";
+import MainClient from "./components/Client/MainClient/MainClient";
+import ProfileClient from "./components/Client/ProfileClient/ProfileClient";
+import SocialWorkspace from "./components/Client/SocialWorkspace/SocialWorkspace";
+import { formData } from "./store";
+import PaymentClient from "./components/Client/PaymentClient/PaymentClient";
 
 const App = () => {
   return (
@@ -32,6 +44,18 @@ const App = () => {
           <Route path="/posts" element={<Posts />} />
           <Route path="/createPosts" element={<CreatePost />} />
           <Route path="/votersPosts" element={<VotersPosts />} />
+        </Route>
+        <Route path="/" element={<Client />}>
+          <Route path="/MainClient" element={<MainClient />} />
+          <Route path="/edit" element={<EditWorkspace />} />
+          <Route path="/add" element={<AddWorkspace />} />
+          <Route path="/del" element={<DeleteWorkspace />} />
+          <Route path="/change-pass" element={<ChangePassWorkspace />} />
+          <Route path="/social" element={<SocialWorkspace />} />
+          <Route path="/profile" element={<ProfileClient />} />
+          <Route path="/avatar" element={<AvatarScreen state={formData.avatar} client={true} />} />
+          {/* Тут багует */}
+          <Route path="/payment/*" element={<PaymentClient />} />
         </Route>
         <Route path="/" element={<WorkSpace />}>
           <Route path="Main" element={<WorkSpaceMain />} />
@@ -47,7 +71,6 @@ const App = () => {
           <Route path="Reset" element={<Reset />} />
           <Route path="NewPass" element={<NewPass />} />
         </Route>
-        <Route path="/" element={<Client />}></Route>
       </Routes>
     </>
   );
