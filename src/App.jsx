@@ -32,6 +32,8 @@ import ProfileClient from "./components/Client/ProfileClient/ProfileClient";
 import SocialWorkspace from "./components/Client/SocialWorkspace/SocialWorkspace";
 import { formData } from "./store";
 import PaymentClient from "./components/Client/PaymentClient/PaymentClient";
+import BillingClient from "./components/Client/BillingClient/BillingClient";
+import BillingHistoryClient from "./components/Client/BillingHistoryClient/BillingHistoryClient";
 
 const App = () => {
   return (
@@ -45,7 +47,7 @@ const App = () => {
           <Route path="/votersPosts" element={<VotersPosts />} />
         </Route>
         <Route path="/" element={<Client />}>
-          <Route path="/MainClient" element={<MainClient />} />
+          <Route path="/mainClient" element={<MainClient />} />
           <Route path="/edit" element={<EditWorkspace />} />
           <Route path="/add" element={<AddWorkspace />} />
           <Route path="/del" element={<DeleteWorkspace />} />
@@ -53,6 +55,8 @@ const App = () => {
           <Route path="/social" element={<SocialWorkspace />} />
           <Route path="/profile" element={<ProfileClient />} />
           <Route path="/avatar" element={<AvatarScreen state={formData.avatar} client={true} />} />
+          <Route path="/billing" element={<BillingClient />} />
+          <Route path="/billing-history" element={<BillingHistoryClient />} />
           {/* Тут багует */}
           <Route path="/payment/*" element={<PaymentClient />} />
         </Route>

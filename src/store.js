@@ -852,22 +852,22 @@ export const navBar = {
 			{
 				id: v1(),
 				title: "Profile",
-				link: ""
+				link: "../Profile"
 			},
 			{
 				id: v1(),
 				title: "Avatar",
-				link: ""
+				link: "../Avatar"
 			},
 			{
 				id: v1(),
 				title: "Email Preferences",
-				link: ""
+				link: "../Avatar"
 			},
 			{
 				id: v1(),
 				title: "Change password",
-				link: ""
+				link: "../change-pass"
 			},
 		]
 	},

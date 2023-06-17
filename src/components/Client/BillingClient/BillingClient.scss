@@ -1,0 +1,23 @@
+.billing {
+	&__mess {
+		background: #F43658;
+		opacity: 0.4;
+		box-shadow: 0px 0px 14px rgba(53, 64, 82, 0.05);
+		border-radius: 10px;
+		color: #fff;
+		padding: 3px 12px 2px;
+		font-size: 12px;
+		line-height: 20px;
+		letter-spacing: 0.1px;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+		margin: 0 0 15px;
+	}
+	&__list-title {
+		line-height: 20px;
+		letter-spacing: 0.1px;
+		color: #7791C2;
+		margin: 0 0 12px;
+	}
+}
