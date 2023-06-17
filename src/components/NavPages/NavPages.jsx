@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { v1 } from "uuid";
-import { ArrowLeftIcon } from "../../assets/icons/arrLeft.svg";
+import arrowLeftIcon from "../../assets/icons/arrLeft.svg";
 import "./NavPages.scss";
 
 let pages = [
@@ -51,13 +51,10 @@ const NavPages = ({ style }) => {
   return (
     <div style={style ? style : {}} className="nav-pages">
       <button className="nav-pages__first-btn nav-pages__btn">
-        <ArrowLeftIcon />
-        <ArrowLeftIcon />
+        <svg href={arrowLeftIcon}></svg>
       </button>
 
-      <button className="nav-pages__prev-btn nav-pages__btn">
-        <ArrowLeftIcon />
-      </button>
+      <button className="nav-pages__prev-btn nav-pages__btn">{/* <ArrowLeftIcon /> */}</button>
 
       <ul className="nav-pages__list">
         {list.map((el) => (
@@ -72,13 +69,11 @@ const NavPages = ({ style }) => {
         ))}
       </ul>
 
-      <button className="nav-pages__next-btn nav-pages__btn">
-        <ArrowLeftIcon />
-      </button>
+      <button className="nav-pages__next-btn nav-pages__btn">{/* <ArrowLeftIcon /> */}</button>
 
       <button className="nav-pages__last-btn nav-pages__btn">
-        <ArrowLeftIcon />
-        <ArrowLeftIcon />
+        {/* <ArrowLeftIcon /> */}
+        {/* <ArrowLeftIcon /> */}
       </button>
     </div>
   );
