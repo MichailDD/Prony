@@ -852,22 +852,22 @@ export const navBar = {
 			{
 				id: v1(),
 				title: "Profile",
-				link: ""
+				link: "../Profile"
 			},
 			{
 				id: v1(),
 				title: "Avatar",
-				link: ""
+				link: "../Avatar"
 			},
 			{
 				id: v1(),
 				title: "Email Preferences",
-				link: ""
+				link: "../Avatar"
 			},
 			{
 				id: v1(),
 				title: "Change password",
-				link: ""
+				link: "../change-pass"
 			},
 		]
 	},
@@ -877,20 +877,219 @@ export const navBar = {
 			{
 				id: v1(),
 				title: "Billing Plan",
-				link: ""
+				link: "billing"
 			},
 			{
 				id: v1(),
 				title: "Payment Methods",
-				link: ""
+				link: "payment"
 			},
 			{
 				id: v1(),
 				title: "Billing History",
-				link: ""
+				link: "billing-history"
 			},
 		]
 	},
+}
+export const billingCl = {
+	title: "Billing Plan",
+	trialMess: "Your Trial expires in X days. You can always buy a plan before the trial period ends",
+	titlePlan: "Your plan",
+	titleOtherPlan: "Available plans",
+	your: {
+		id: v1(),
+		titleBtn: "",
+		color: "transparent",
+		plan: {
+			title: "Plan",
+			value: "Free"
+		},
+		suggest: {
+			title: "Suggestions",
+			value: 1,
+		},
+		member: {
+			title: "Team members",
+			value: 1
+		},
+		price: {
+			title: "Price",
+			value: "Free"
+		},
+		date: {
+			title: "Billing date",
+			value: "None"
+		}
+	},
+	list: [
+		{
+			id: v1(),
+			titleBtn: "Buy now",
+			color: "#1565C0",
+			plan: {
+				title: "Plan",
+				value: "Basic"
+			},
+			suggest: {
+				title: "Suggestions",
+				value: 1000,
+			},
+			member: {
+				title: "Team members",
+				value: 10
+			},
+			price: {
+				title: "Price",
+				value: 25
+			}
+		},
+		{
+			id: v1(),
+			titleBtn: "Buy now",
+			color: "#F43658",
+			plan: {
+				title: "Plan",
+				value: "Basic"
+			},
+			suggest: {
+				title: "Suggestions",
+				value: 1000,
+			},
+			member: {
+				title: "Team members",
+				value: 10
+			},
+			price: {
+				title: "Price",
+				value: 25
+			}
+		},
+		{
+			id: v1(),
+			titleBtn: "Buy now",
+			color: "#272557",
+			plan: {
+				title: "Plan",
+				value: "Basic"
+			},
+			suggest: {
+				title: "Suggestions",
+				value: 1000,
+			},
+			member: {
+				title: "Team members",
+				value: 10
+			},
+			price: {
+				title: "Price",
+				value: 25
+			}
+		},
+		{
+			id: v1(),
+			titleBtn: "Buy now",
+			color: "#7791C2",
+			plan: {
+				title: "Plan",
+				value: "Basic"
+			},
+			suggest: {
+				title: "Suggestions",
+				value: 1000,
+			},
+			member: {
+				title: "Team members",
+				value: 10
+			},
+			price: {
+				title: "Price",
+				value: 25
+			}
+		},
+	]
+}
+export const billingHistory = {
+	title: "Billing History",
+	titleDate: "Transaction date",
+	titleAmount: "Amount",
+	list: [
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+		{
+			id: v1(),
+			date: "21 Feb 2020",
+			amount: 50,
+		},
+	]
 }
 export const mainClient = {
 	title: "Workspaces",
