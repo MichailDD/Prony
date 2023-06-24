@@ -1,0 +1,21 @@
+.sort-posts {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 8px;
+	&__sort,
+	&__show {
+		display: flex;
+		align-items: center;
+	}
+	&__show {
+		& .select-post-sort {
+			width: 61px;
+		}
+	}
+	&__title {
+		line-height: 21px;
+		letter-spacing: 0.08px;
+		color: #7791C2;
+		white-space: nowrap;
+	}
+}

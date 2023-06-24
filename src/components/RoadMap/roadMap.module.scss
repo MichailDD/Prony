@@ -1,26 +1,6 @@
-// <div className={`${s.roadmap} container`}>
-//       <p className={s.title}>Roadmap</p>
-//       <div className={s.cardsWr}>
-//         <div className={s.cardWr}>
-//           <div className={s.cardStatus}>{status}</div>
-//           <div className={s.cardInfoWr}>
-//             <div className={s.cardLeft}>
-//               <img src={like} className={s.cardLike} />
-//               <p className={s.cardLikeNum}>23</p>
-//             </div>
-//             <div className={s.cardRight}>
-//               <p className={s.cardRightText}>
-//                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam
-//               </p>
-//               <p className={s.cardRightBoardText}>Board title</p>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-
 .roadmap {
   margin-top: 30px;
+  margin-bottom: 46px;
 }
 .title {
   font-family: "Poppins";

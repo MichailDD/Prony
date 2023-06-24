@@ -16,6 +16,7 @@
 }
 .logo {
   margin-right: 597px;
+  cursor: pointer;
 }
 .right {
   display: flex;
@@ -88,10 +89,11 @@
 .avatarWr {
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .avatarText {
-  margin-left: 19px;
+  margin-left: 18px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -107,4 +109,32 @@
   margin-left: 26px;
   fill: #7791c2;
   height: 17px;
+}
+
+ul.avatarMenu {
+  display: none;
+  position: absolute;
+  padding: 10px 20px !important;
+  position: absolute;
+  background: #ffffff;
+  top: 45px;
+  right: 0;
+  padding: 11px 15px;
+  z-index: 999;
+  border: 1px solid #1565c0;
+  &.active {
+    display: block;
+  }
+}
+
+.avatarMenuText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.0595px;
+  color: #7791c2;
+  cursor: pointer;
+  margin-bottom: 13px;
 }

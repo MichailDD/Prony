@@ -1,0 +1,12 @@
+.add-ws {
+	margin: 26px 0 0;
+	display: flex;
+	flex-direction: column;
+	gap: 26px;
+	&__item-title {
+		font-size: 12px;
+		line-height: 21px;
+		letter-spacing: 0.08px;
+		margin: 0 0 11px;
+	}
+}

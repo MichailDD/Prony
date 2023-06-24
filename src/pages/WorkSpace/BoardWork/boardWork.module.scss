@@ -1,0 +1,206 @@
+// <div className={`${s.board} container`}>
+// <div className={s.boardL}></div>
+// <div className={s.boardR}>
+//   <div className={s.boardTextCards}>
+// 	<div className={s.boardTextCard}>
+// 	  <div className={s.cardLeft}>
+// 		<img src={like} className={s.like} />
+// 		<p className={s.cardLeftNum}>23</p>
+// 	  </div>
+// 	  <div className={s.cardCenter}>
+// 		<p className={s.topText}>
+// 		  Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam
+// 		</p>
+// 		<div className={s.cardCenterCenter}>
+// 		  <div className={s.cardCenterRound}></div>
+// 		  <p className={s.cardComp}>Complete</p>
+// 		  <p className={s.cardBottom}>
+// 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam sed dictum
+// 			nibh. Tempor, sed molestie neque morbi. Sed sed non, in est turpis nulla tortor.
+// 		  </p>
+// 		</div>
+// 	  </div>
+// 	  <div className={s.cardRight}>
+// 		<img src={like} className={s.text} />
+// 		<p className={s.cardRightNum}>12</p>
+.board {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 32% 1fr;
+}
+.boardL {
+  width: 360px;
+  height: 235px;
+  background: #f8faff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 38px;
+}
+
+.boardR {
+  margin-top: 55px;
+}
+
+.boardTextCards {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+
+.boardTextCard {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+}
+
+.cardLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cardLeftNum {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #7791c2;
+}
+
+.cardCenter {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 4px;
+}
+
+.cardRight {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 6px;
+  gap: 11px;
+}
+.cardCenter {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cardCenterCenter {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.cardCenterRound {
+  background: #43a047;
+  border-radius: 7.7px;
+  width: 6px;
+  height: 6px;
+}
+
+.topText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 128.5%;
+  color: #272557;
+}
+
+.cardComp {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.0608523px;
+  color: #7791c2;
+}
+
+.cardBottom {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 128.5%;
+  color: #272557;
+}
+
+.cardRightNum {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #1565c0;
+}
+
+.pages {
+  object-fit: scale-down;
+  margin: 8px auto;
+  margin-bottom: 70px;
+  cursor: pointer;
+}
+
+.input {
+  background: #ffffff;
+  border: 1px solid #e5ecf9;
+  border-radius: 5px;
+  width: 100%;
+  height: 33px;
+  background-image: url("../../../assets/image/WorkSpace/board/search.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.07875px;
+  color: #cddaf2;
+  padding-left: 14px;
+  background-position: 97% center;
+}
+
+.filterText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 21px;
+  letter-spacing: 0.07875px;
+  color: #7791c2;
+}
+
+.select {
+  height: 33px;
+  padding: 6px 12px;
+  width: 100%;
+}
+
+.filterTexts {
+  margin-top: 11px;
+
+  display: grid;
+  grid-template-columns: 162px 147px;
+  row-gap: 12px;
+  column-gap: 20px;
+}
+
+.filterClear {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.07875px;
+  text-decoration-line: underline;
+  color: #7791c2;
+  text-align: end;
+  margin-top: 18px;
+  cursor: pointer;
+}

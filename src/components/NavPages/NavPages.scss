@@ -1,0 +1,52 @@
+.nav-pages {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	fill: #7791C2;
+	user-select: none;
+	&__btn {
+		width: 25px;
+		height: 25px;
+		&:hover {
+			background: #7791C2;
+			fill: #fff;
+		}
+	}
+	&__first-btn,
+	&__last-btn {
+		svg:last-child {
+			margin: 0 0 0 -2px;
+		}
+	}
+	&__last-btn,
+	&__next-btn {
+		transform: rotate(180deg);
+	}
+	&__list,
+	&__item{
+		display: flex;
+	}
+	&__list {
+		gap: 5px;
+		margin: 0 10px;
+	}
+	&__item {
+		cursor: pointer;
+		align-items: center;
+		justify-content: center;
+		width: 25px;
+		height: 25px;
+		color: #272557;
+		font-size: 12px;
+		line-height: 15px;
+		border-radius: 100%;
+		&:hover {
+			box-shadow: 0 0 2px #7791C2;
+		}
+		&.active {
+			background: #7791C2;
+			color: #fff;
+			pointer-events: none;
+		}
+	}
+}
