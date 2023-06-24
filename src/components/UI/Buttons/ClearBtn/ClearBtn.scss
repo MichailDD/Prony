@@ -1,0 +1,16 @@
+.clear-btn {
+	font-size: 12px;
+	letter-spacing: 0.08px;
+	line-height: 21px;
+	color: #7791C2;
+	text-decoration: underline;
+	width: 100%;
+	display: block;
+	&.blue {
+		color: #1565C0;
+		width: max-content;
+	}
+	&:hover {
+		text-decoration: none;
+	}
+}

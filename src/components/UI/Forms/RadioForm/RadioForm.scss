@@ -1,0 +1,81 @@
+.radio {
+	cursor: pointer;
+	position: relative;
+	&__custom,
+	&__custom::after {
+		transition: all .2s;
+	}
+	&__custom {
+		width: 20px;
+		height: 20px;
+		background: #fff;
+		border: 2px solid rgba(1, 1, 1, 0.54);
+		position: absolute;
+		left: 0;
+		top: 0;
+		border-radius: 100%;
+		&::after {
+			content: "";
+			position: absolute;
+			top:0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			border: 3px solid #fff;
+			background: #1565C0;
+			border-radius: 100%;
+			opacity: 0;
+			transform: scale(0);
+		}
+	}
+	&__body {
+		padding: 0 0 0 35px;
+	}
+	&__input {
+		opacity: 0;
+		pointer-events: none;
+		position: absolute;
+		z-index: -1;
+		&:checked + .radio__custom {
+			background: #fff;
+			border-color: #1565C0;
+			&::after {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
+	}
+	&.pay {
+		background: #F3F6FD;
+		border-radius: 10px;
+		padding: 16px 12px 13px;
+		transition: all .2s;
+		&.active {
+			background: #fff;
+			box-shadow: 0px 0px 30px rgba(202, 221, 255, 0.55);
+		}
+		& .radio {
+			&__custom {
+				top: 17px;
+				left: 12px;
+			}
+		}
+		& .input-body__title {
+			font-size: 14px;
+			line-height: 21px;
+			letter-spacing: 0.07px;
+		}
+
+	}
+	&__pay-num {
+		display: flex;
+		justify-content: space-between;
+		background: #E5ECF9;
+		border-radius: 5px;
+		padding: 8px 14px 7px;
+		gap: 17px;
+		margin: 17px 0 0;
+		letter-spacing: 1.3px;
+		color: rgba(119, 145, 194, 0.5);
+	}
+}

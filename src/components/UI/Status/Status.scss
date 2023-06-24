@@ -1,0 +1,19 @@
+.status {
+	padding: 0 0 0 16px;
+	position: relative;
+	margin: 0 0 5px;
+	&__label {
+		position: absolute;
+		border-radius: 100%;
+		width: 6.2px;
+		height: 6.2px;
+		top: calc(50% - 3.1px);
+		left: 3px;
+	}
+	&__title {
+		font-size: 11px;
+		line-height: 16px;
+		letter-spacing: 0.06px;
+		color: #7791C2;
+	}
+}

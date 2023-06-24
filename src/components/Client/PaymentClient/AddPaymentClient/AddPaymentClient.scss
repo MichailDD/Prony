@@ -1,0 +1,19 @@
+.add-payment {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 4px 24px;
+	&__card-form-wrap {
+		width: 100%;
+		& .input-container__title {
+			margin: 0 0 4px;
+		}
+	}
+	&__card-form {
+		display: grid;
+		grid-template-columns: repeat(4,1fr);
+		column-gap: 24px;
+		
+	}
+
+}

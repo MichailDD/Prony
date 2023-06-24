@@ -1,0 +1,28 @@
+.add-ws-lang {
+	&__lang-list {
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		gap: 13px 13px;
+	}
+	&__lang-item {
+		padding: 8px 14px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background: rgba(229, 236, 249, 0.37);
+		border-radius: 5px;
+	}
+	& .input-body__title {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	& .input-body__text {
+		font-size: 10px;
+		line-height: 13px;
+		letter-spacing: 0.3px;
+	}
+	& .radio__custom {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}

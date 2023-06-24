@@ -1,0 +1,23 @@
+.add-ws-plan {
+	&__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 19px;
+	}
+	&__item {
+		background: #fff;
+		outline: 3px solid rgba(229, 236, 249, 0.37);
+		border-radius: 7px;
+		padding: 6px 30px 8px;
+		text-align: center;
+		line-height: 26px;
+		letter-spacing: -0.22px;
+		transition: all .2s;
+		cursor: pointer;
+		&.active {
+			background: url('../../../../assets/icons/checked.svg') 15px 50%/14px auto no-repeat, #1565C0;
+			color: #fff;
+			outline-color: #E5ECF9;
+		}
+	}
+}

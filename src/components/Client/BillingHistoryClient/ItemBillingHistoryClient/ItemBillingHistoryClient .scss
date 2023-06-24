@@ -1,0 +1,15 @@
+.item-billing-history {
+	background: #fff;
+	border-bottom: 1px dashed #E5ECF9;
+	min-height: 48px;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: #7791C2;
+	&__item {
+		width: 70%;
+		&.amount {
+			width: 30%;
+		}
+	}
+}

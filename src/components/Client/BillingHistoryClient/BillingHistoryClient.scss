@@ -1,0 +1,26 @@
+.billing-history {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 30px rgba(202, 221, 255, 0.55);
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 0 0 40px;
+	&__header {
+		display: flex;
+		align-items: center;
+		min-height: 75px;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 39px;
+		padding: 18px 37px;
+		background: #E5ECF9;
+	}
+	&__header-title {
+		width: 30%;
+		&:first-child {
+			width: 70%;
+		}
+	}
+	&__list {
+		padding: 17px 37px 40px;
+	}
+}

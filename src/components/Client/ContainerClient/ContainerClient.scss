@@ -1,0 +1,17 @@
+.client-container {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 30px rgba(202, 221, 255, 0.55);
+	border-radius: 10px;
+	overflow: hidden;
+	&__header {
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 39px;
+		text-align: center;
+		padding: 18px;
+		background: #E5ECF9;
+	}
+	&__body {
+		padding: 26px 37px 42px;
+	}
+}
