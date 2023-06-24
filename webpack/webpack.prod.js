@@ -10,7 +10,7 @@ module.exports = {
     path: path.resolve(__dirname, "..", "docs/"),
     filename: "scripts/bundle[hash].js",
     clean: true,
-    publicPath: "/"
+    // publicPath: "/"
   },
 
   plugins: [
