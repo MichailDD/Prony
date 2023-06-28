@@ -1,0 +1,33 @@
+.main{
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(53, 64, 82, 0.05);
+    border-radius: 10px;
+    margin-top: 14px;
+}
+.main__input{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-top: 27px;
+    margin-left: 35px;
+}
+.main__label{
+    width: 99px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    background: #b6cce6;
+    border-radius: 30px;
+    gap: 30px;
+    margin-left: 35px;
+    margin-top: 14px;
+    padding-left: 16px;
+}
+.label__title{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.07875px;
+    color: #272557;
+    }

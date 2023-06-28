@@ -10,6 +10,7 @@ import VotersPosts from "./pages/Posts/VotersPosts/VotersPosts";
 import TagsCard from "./pages/Tags/TagsBoard/TagsCard/TagsCard";
 import DetailUsers from "./pages/Users/DetailUser";
 import Users from "./pages/Users/Users/Users";
+import Changelog from "./pages/Changelog/Changelog";
 const App = () => {
   return (
     <>
@@ -23,6 +24,8 @@ const App = () => {
           <Route path="/tags" element={<TagsCard />} />
           <Route path="/users" element={<Users />} />
           <Route path="/detailUser" element={<DetailUsers />} />
+          <Route path="/changelog" element={<Changelog />} />
+
         </Route>
         <Route>
           <Route path="/WorkSpacePage" element={<WorkSpace />} />
