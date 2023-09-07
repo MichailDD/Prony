@@ -40,7 +40,11 @@ const App = () => {
     <>
       <Routes>
         <Route path='/' element={<Layoute />}>
+<<<<<<< HEAD
           <Route path='/' index element={<DashBoard />} />
+=======
+          <Route path='/' element={<DashBoard />} />
+>>>>>>> efb211d1fba5339447673ebba58f72b4f58fbb72
           <Route path='/boards' element={<Boards />} />
           <Route path='/posts' element={<Posts />} />
           <Route path='/createPosts' element={<CreatePost />} />
@@ -57,10 +61,18 @@ const App = () => {
           <Route path='/avatar' element={<AvatarScreen state={formData.avatar} client={true} />} />
           <Route path='/billing' element={<BillingClient />} />
           <Route path='/billing-history' element={<BillingHistoryClient />} />
+<<<<<<< HEAD
           <Route path='/payment/*' element={<PaymentClient />} />
         </Route>
         <Route path='/' element={<WorkSpace />}>
           <Route index path='Main' element={<WorkSpaceMain />} />
+=======
+          {/* Тут багует */}
+          <Route path='/payment/*' element={<PaymentClient />} />
+        </Route>
+        <Route path='/' element={<WorkSpace />}>
+          <Route path='Main' element={<WorkSpaceMain />} />
+>>>>>>> efb211d1fba5339447673ebba58f72b4f58fbb72
           <Route path='Changelog' element={<Changelog />} />
           <Route path='Board' element={<BoardWork />} />
           <Route path='ChangePassword' element={<ChangePassword />} />
